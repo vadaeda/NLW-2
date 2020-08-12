@@ -1,0 +1,48 @@
+.page-half-logo{
+    height: 100vh;
+    width: 100vw;
+    color: var(--color-text-in-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-half-logo .platform-content {
+    background: var(--color-primary);
+    height: fit-content;
+    width: 100vw;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.page-half-logo .platform-content .logo-container > img{
+    height: 7.5rem;
+}
+
+.page-half-logo .platform-content .logo-container h2{
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 4.6rem;
+    margin-top: 0.8rem;
+}
+
+@media (min-width: 700px){
+    .page-half-logo {
+        height: 100vh;
+        width: 100vw;
+        color: var(--color-text-in-primary);
+        display: flex;
+        flex-direction: row;
+    }
+
+    .page-half-logo .platform-content{
+        width: 50vw;
+        height: 100vh;
+        flex-direction: column;
+    }
+    .page-half-logo .platform-content .logo-container > img{
+        height: 10rem;
+        margin: auto 0.2rem
+    }
+}

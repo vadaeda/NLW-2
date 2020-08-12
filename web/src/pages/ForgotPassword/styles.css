@@ -1,0 +1,84 @@
+.forgot-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 0.8rem;
+}
+
+.forgot-content .link {
+    margin: 1rem 0;
+    
+}
+
+.forgot-content .link > img{
+    height: 1.6rem;
+}
+
+.forgot-content form{
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-text-complement);
+}
+
+.forgot-content form fieldset {
+    border: 0;
+}
+
+.forgot-content form fieldset h1{
+    color: var(--color-text-title);
+    margin-bottom: 0.5rem;
+}
+
+.forgot-content form fieldset h2{
+    font-size: 1.4rem;
+    color: var(--color-text-complement);
+    margin-bottom: 3rem;
+    font-weight: normal;
+}
+
+.forgot-content form button{
+    width: 100%;
+    height: 5.6rem;
+    background: var(--color-secundary);
+    color: var(--color-button-text);
+    outline: 0;
+    border: 0;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+    margin-top: 3.2rem;
+}
+
+.forgot-content form button:hover{
+    background: var(--color-secundary-dark);
+}
+
+@media(min-width: 700px){
+    .forgot-content {
+        height: 100vh;
+        width: 50vw;
+        max-width: 50vw;
+        display: flex;
+        justify-content: flex-start;
+        overflow: hidden;
+    }
+
+    .forgot-content .link {
+        padding: 0.8rem 1.8rem;
+    }
+
+    .forgot-content form{
+        margin: auto;
+        max-width: 400px;
+        display: flex;
+    }
+
+
+}

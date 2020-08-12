@@ -43,7 +43,7 @@
     background: var(--color-secundary-dark);
 }
 
-.authenticate-content form fieldset p{
+.authenticate-content form fieldset .remind-forgot{
     display: flex;
     justify-content: space-between;
     margin: 2.5rem 0;

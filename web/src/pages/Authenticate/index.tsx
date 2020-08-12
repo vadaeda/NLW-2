@@ -19,10 +19,10 @@ function Authenticate (){
                         <Input name='email' label="E-mail"/>
                         <Input name='password' label="Senha"/>
                         
-                        <p>
+                        <div className="remind-forgot">
                             <Checkbox name='remindme' label='Lembrar-me'/>
-                            <Link to="/" className="link">Esqueci minha senha</Link>
-                        </p>
+                            <Link to="/forgot-password" className="link">Esqueci minha senha</Link>
+                        </div>
                         <button type='submit'>Entrar</button>
                     </fieldset>
 

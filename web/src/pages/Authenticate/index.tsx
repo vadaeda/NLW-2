@@ -27,7 +27,7 @@ function Authenticate (){
                     </fieldset>
 
                     <footer>
-                        <p>Não tem conta?<br/><Link to="/" className="link">Cadastre-se</Link></p>
+                        <p>Não tem conta?<br/><Link to="/register" className="link">Cadastre-se</Link></p>
                         <p>É de graça <img src={purpleHeartIcon} alt="Coração roxo"/></p>
                     </footer>
                 </form>

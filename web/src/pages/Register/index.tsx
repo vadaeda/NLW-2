@@ -18,9 +18,9 @@ function Register(){
                     <fieldset>
                         <h1>Cadastro</h1>
                         <h2>Preencha os dados abaixo para começar</h2>
-                        <Input name='name' label='Nome completo'></Input>
-                        <Input name='email' label='E-mail'></Input>
-                        <Input name='password' label='Senha'></Input>
+                        <Input name='name' label='Nome completo'/>
+                        <Input name='email' label='E-mail'/>
+                        <Input name='password' label='Senha'/>
                         <button type='submit'>Concluir cadastro</button>
                     </fieldset>
                 </form>
